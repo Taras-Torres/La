@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    min-height: 100vh;
+    background: url(new-york-usa-jun-18-2020-los-angeles-lakers-logo-of-professional-basketball-club-in-american-league-silhouette-of-basket-player-in-foreground-sp-2C2YX6J.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header{
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+    width: 100%;
+    padding: 20px 100px;
+    background: rgba(255, 255, 255, .1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+.logo{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    color: blueviolet;
+}
+.navbar a{
+    color: #dd70f5;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 35px;
+    transition: .7s;
+}
+.navbar a:hover{
+    color: yellow;
+}
